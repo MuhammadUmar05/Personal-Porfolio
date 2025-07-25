@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+@plugin "daisyui" {
+    themes: false;
+}
+
+@theme {
+    --color-primary: #222831;
+    --color-primary-text: #EEEEEE;
+    --color-secondary: #00ADB5
+}
+
+html {
+    scroll-behavior: smooth!important;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    @apply bg-primary
+}
+
+.waving-hand {
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    animation: waving 2.1s ease 0s infinite;
+    animation-play-state: running;
+}
+
+@keyframes waving {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    10% {
+        transform: rotate(14deg);
+    }
+
+    20% {
+        transform: rotate(-8deg);
+    }
+
+    30% {
+        transform: rotate(14deg);
+    }
+
+    40% {
+        transform: rotate(-4deg);
+    }
+
+    50% {
+        transform: rotate(10deg);
+    }
+
+    60% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+.background-blur {
+    /* filter:blur(10px); */
+    backdrop-filter: blur(10px);
+}
