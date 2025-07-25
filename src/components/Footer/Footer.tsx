@@ -1,5 +1,4 @@
 function Footer() {
-  
   return (
     <div className="py-5 border-t-2 border-[#393E46] flex justify-center items-center">
       <div className="flex flex-col gap-3">
@@ -44,7 +43,7 @@ function Footer() {
           </a>
         </div>
         <p className="text-primary-text cursor-pointer">
-          ©2025 Muhammad Umar. All rights reserved.
+          ©{new Date().getFullYear()} Muhammad Umar. All rights reserved.
         </p>
       </div>
     </div>
