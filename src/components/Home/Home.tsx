@@ -23,7 +23,7 @@ function Home() {
         <span className="text-primary-text text-3xl lg:text-4xl text-center font-semibold">
           <Typewriter
             words={[
-              "Frontend Developer",
+              "Fullstack developer",
               "React Developer",
               "Undergraduate Software Engineer",
             ]}

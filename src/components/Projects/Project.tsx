@@ -4,6 +4,7 @@ import book_worm from "../../assets/book-worm.png";
 import zappy_ai from "../../assets/zappy-ai.png";
 import tech_nests from "../../assets/tech-nests.png";
 import vesora from "../../assets/vesora.png";
+import spt from "../../assets/spt.png"
 function Project() {
   return (
     <section
@@ -23,6 +24,37 @@ function Project() {
         <p className="col-span-full md:text-5xl text-3xl   text-primary-text font-bold text-center lg:text-start text-nowrap md:justify-self-start">
           MY RECENT <span className="text-secondary">WORKS</span>
         </p>
+        <div className="bg-[#393E46]/50 backdrop:blur-3xl p-6 rounded-xl flex flex-col gap-3 hover:scale-105 transition-all duration-300 hover:bg-[#393E46]/80">
+          <img
+            src={spt}
+            alt=""
+            className="rounded-xl w-full max-h-[440px] h-full"
+          />
+          <p className="font-semibold text-primary-text text-lg">
+            Student Performance Tracker
+          </p>
+          <p className="text-base font-medium text-primary-text/80">
+            A full stack website built using ReactJS, TailwindCSS,
+            Redux Toolkit Query, ExpressJS, NodeJS, PostgreSQL and ML model using python libraries this project showcases a fully
+            responsive UI, seamless animations and transition effects, and
+            secure authentication using JWT.
+          </p>
+          <div className="flex justify-between items-center">
+            <button className="bg-secondary/50 hover:bg-secondary/40 transition-colors px-4 py-3 rounded-2xl text-primary-text cursor-pointer">
+              <a href="https://student-performance-tracker-project.netlify.app/" target="_blank">
+                Live Preview
+              </a>
+            </button>
+            <button className="bg-[#393E46] hover:bg-[#393E46]/80 transition-colors px-4 py-3 rounded-2xl text-primary-text cursor-pointer">
+              <a
+                href="https://github.com/MuhammadUmar05/SPT-FRONTEND"
+                target="_blank"
+              >
+                Github Repo
+              </a>
+            </button>
+          </div>
+        </div>
         <div className="bg-[#393E46]/50 backdrop:blur-3xl p-6 rounded-xl flex flex-col gap-3 hover:scale-105 transition-all duration-300 hover:bg-[#393E46]/80">
           <img
             src={altech_ecommerce}

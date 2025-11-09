@@ -11,9 +11,9 @@ import {
 import {
   SiTailwindcss,
   SiTypescript,
-  SiFirebase,
-  SiDart,
-  SiFlutter,
+  SiNodedotjs,
+  SiExpress,
+  SiPostgresql
 } from "react-icons/si";
 
 function Skills() {
@@ -31,9 +31,9 @@ function Skills() {
     { icon: "SiTailwindcss", colour: "#38BDF8" },
     { icon: "FaBootstrap", colour: "#7952B3" },
     { icon: "FaReact", colour: "#61DAFB" },
-    { icon: "SiFirebase", colour: "#FFCA28" },
-    { icon: "SiDart", colour: "#0175C2" },
-    { icon: "SiFlutter", colour: "#02569B" },
+    { icon: "SiNodedotjs", colour: "#FFCA28" },
+    { icon: "SiExpress", colour: "#00ee00" },
+    { icon: "SiPostgresql", colour: "#02569B" },
     { icon: "FaGithub", colour: "#000000" },
   ];
   const Icons: Record<string, IconType> = {
@@ -46,9 +46,9 @@ function Skills() {
     FaGithub,
     SiTypescript,
     SiTailwindcss,
-    SiFirebase,
-    SiDart,
-    SiFlutter,
+    SiExpress,
+    SiPostgresql,
+    SiNodedotjs,
   };
   return (
     <section
