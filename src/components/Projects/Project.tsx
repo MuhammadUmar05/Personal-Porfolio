@@ -40,11 +40,7 @@ function Project() {
             secure authentication using JWT.
           </p>
           <div className="flex justify-between items-center">
-            <button className="bg-secondary/50 hover:bg-secondary/40 transition-colors px-4 py-3 rounded-2xl text-primary-text cursor-pointer">
-              <a href="https://student-performance-tracker-project.netlify.app/" target="_blank">
-                Live Preview
-              </a>
-            </button>
+            
             <button className="bg-[#393E46] hover:bg-[#393E46]/80 transition-colors px-4 py-3 rounded-2xl text-primary-text cursor-pointer">
               <a
                 href="https://github.com/MuhammadUmar05/SPT-FRONTEND"
